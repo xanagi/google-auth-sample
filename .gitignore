@@ -1,0 +1,13 @@
+.vagrant
+logs
+log
+tmp
+*.log
+*.bak
+.DS_Store
+~*
+
+vendor
+client_secret.json
+service_account.p12
+.env

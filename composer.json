@@ -1,0 +1,7 @@
+{
+    "name": "xanagi/google-signin-sample",
+    "require": {
+        "google/apiclient": "1.*",
+        "vlucas/phpdotenv": "~2.2"
+    }
+}

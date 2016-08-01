@@ -1,0 +1,17 @@
+version: "2"
+
+services:
+  php:
+    container_name: goog-php
+    build: ./docker/php
+    image: xanagi/goog-php
+    volumes:
+      - .:/work
+    ports:
+        - "8000:8000"
+    networks:
+      - internal
+    command: php -S 0.0.0.0:8000 -t /work/public
+networks:
+  internal:
+    driver: bridge
